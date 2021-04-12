@@ -1,0 +1,10 @@
+#Iain Bennett
+#Pseudocode for Aggregating Population Rasters to county/presidio shapefile in Rio Grande Basin
+
+1. SET the ArcPy Working Environment.
+2. GET a list of all raster names in the working environment.
+3. GET counties feature class name. 
+5. FOR each raster in the raster list
+6. 	CALL ZonalStatistics(counties, "FID", raster, "SUM").
+7. 	Save the output raster
+8. ENDFOR
