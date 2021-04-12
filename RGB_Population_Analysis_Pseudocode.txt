@@ -1,5 +1,5 @@
 #Iain Bennett
-#Pseudocode for Aggregating Population Rasters to county/presidio shapefile in Rio Grande Basin
+#Pseudocode for Aggregating Population Rasters to county/municipio shapefile in Rio Grande Basin
 
 1. SET the ArcPy Working Environment.
 2. GET a list of all raster names in the working environment.
